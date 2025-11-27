@@ -25,6 +25,28 @@
             padding: 40px 20px;
         }
 
+        .header-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .profile-image {
+            flex-shrink: 0;
+        }
+
+        .profile-image img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .header-text {
+            flex: 1;
+        }
+
         h1 {
             font-size: 2.5em;
             font-weight: 600;
@@ -33,7 +55,7 @@
         }
 
         .contact-info {
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             color: #666;
         }
 
@@ -94,13 +116,20 @@
 </head>
 <body>
     <div class="container">
-        <h1>Kaan Güray Şirin</h1>
-        
-        <div class="contact-info">
-            Istanbul, Turkey • 
-            <a href="mailto:kaan.sirin@sabanciuniv.edu">kaan.sirin@sabanciuniv.edu</a> • 
-            <a href="https://www.linkedin.com/in/kaan-şirin-5732462ba/">LinkedIn</a> • 
-            <a href="https://github.com/KaanSirin">GitHub</a>
+        <div class="header-section">
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Kaan Güray Şirin">
+            </div>
+            <div class="header-text">
+                <h1>Kaan Güray Şirin</h1>
+                
+                <div class="contact-info">
+                    Istanbul, Turkey • 
+                    <a href="mailto:kaan.sirin@sabanciuniv.edu">kaan.sirin@sabanciuniv.edu</a> • 
+                    <a href="https://www.linkedin.com/in/kaan-şirin-5732462ba/">LinkedIn</a> • 
+                    <a href="https://github.com/KaanSirin">GitHub</a>
+                </div>
+            </div>
         </div>
 
         <h2>About Me</h2>
@@ -134,13 +163,9 @@
         <div class="experience-item">
             <strong>Undergraduate Researcher</strong> - <a href="http://varollab.com">VRL Lab</a>, Sabancı University
             <br><span class="date">February 2024 - Present | Istanbul, Turkey</span>
-            <!-- <ul>
-                <li>Developed a unique image and text dataset from scratch by scraping 250+ websites, resulting in a dataset with over 1.19M images and 1.17M articles</li>
-                <li>Publication accepted at <em><a href="https://www.nature.com/sdata/">Nature Scientific Data</a></em>, the project website is online at <a href="http://www.globaldiplomacy.net">www.globaldiplomacy.net</a></li>
-                <li>Led the development of the dataset, managing up to 8 people at a time to ensure data quality, completeness, and consistency</li>
-                <li>Designed natural language processing pipelines for extracting interaction networks from textual data, utilizing named entity recognition and entity linking/disambiguation</li>
-                <li>Funded researcher under a TÜBITAK 3501 grant (18 months) and 2247-C STAR program (6 months)</li>
-            </ul> -->
+            <ul>
+             researcher under a TÜBITAK 3501 grant (18 months) and 2247-C STAR program (6 months)</li> -->
+            </ul>
         </div>
     </div>
 </body>
