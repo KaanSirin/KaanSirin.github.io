@@ -1,4 +1,13 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "academic" # the name of your site, e.g. ACME Corp.
-description: "a Jekyll theme for academia"
+title: Kaan Güray Şirin
+description: Computer Science student
+baseurl: "" # leave empty if hosting at username.github.io
+url: "" # your site URL
+
+# Theme
+remote_theme: academic-jekyll-theme
+
+# Author info (usually goes in the sidebar/header)
+author:
+  name: Kaan Şirin
+  email: kaan.sirin@sabanciuniv.edu
+  # Add other fields as needed

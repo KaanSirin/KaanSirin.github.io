@@ -4,11 +4,11 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-6">
-    <h3 class="fw-bold">Research</h3>
+    <h3 class="fw-bold">Personal Statement</h3>
     {{ content }}
   </div>
-  <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%">
+  <div class="col-md-6 ms-md-auto">
+    <img src="{{ site.github.url }}/assets/img/me.jpg" alt="Home" width="250px">
   </div>
 </div>
 
@@ -16,9 +16,32 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Education</h3>
+      <ul>
+        <li> 🎓 B.Sc. Computer Science & Engineering, Sabanci University, 2025 </li>
+        <li> B.Sc. Industrial Engineering <i> Double Major </i> , Sabanci University, <i>Expected</i> 2026 </li>
+      </ul>
+      <img src="https://www.sabanciuniv.edu/themes/custom/su/logo.svg" alt="Sabanci Logo" width="120px">
+  </div>
+</div>
+
+
+
+<div class="row mb-4">
+  <div class="col-md-12 text-center small text-muted">
+    <span>
+      Built using
+      <a href="https://github.com/LeNPaul/academic"> Paul Le's</a> Jekyll template
+    </span>
+  </div>
+</div>
+
+
+<!-- <div class="row g-5 mb-5">
+  <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
     {% for post in site.posts %}
       <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
     {% endfor %}
   </div>
-</div>
+</div> -->
