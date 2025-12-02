@@ -1,5 +1,7 @@
-title: Kaan Güray Şirin
-description: Computer Science student
+name: Kaan
+mname: Güray
+sname: Şirin
+description: #Computer Science student
 baseurl: "" # leave empty if hosting at username.github.io
 url: "" # your site URL
 
