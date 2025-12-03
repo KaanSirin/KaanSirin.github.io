@@ -1,6 +1,7 @@
 name: Kaan
 mname: Güray
 sname: Şirin
+title: kaan sirin webpage
 description: #Computer Science student
 baseurl: "" # leave empty if hosting at username.github.io
 url: "" # your site URL
@@ -12,4 +13,3 @@ remote_theme: academic-jekyll-theme
 author:
   name: Kaan Şirin
   email: kaan.sirin@sabanciuniv.edu
-  # Add other fields as needed
