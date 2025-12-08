@@ -3,11 +3,20 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
-        <p>{{ item.authors }} <a href="{{ item.url }}">{{ item.name }}</a> <i>{{ item.pub }} </i> </p>
-        {% endfor %}
-        {% else %}
-        {% for item in site.data.publications.index %}
-        <p>{{ item.authors }} <a href="{{ item.url }}">{{ item.name }}</a> <i>{{ item.pub }} </i> </p>
+          <p>{{ item.authors }} <a href="{{ item.url }}" target="_blank">{{ item.name }}</a> <i>{{ item.pub }} </i> </p>
+      {% endfor %}
+      {% else %}
+      {% for item in site.data.publications.index %}
+        <div class="pub-entry">
+          <p>{{ item.authors }} 
+            <a href="{{ item.url }}" target="_blank">{{ item.name }}</a> 
+            <i>{{ item.pub }}</i>
+          </p>
+          <a href="{{ site.github.url }}/{{ item.path }}" target="_blank">
+            <img class="pub-img" src="{{ site.github.url }}/{{ item.path }}">
+          </a>
+          <p class="pub-abstract"><strong>Abstract:</strong><br>{{ item.abstract }}</p>
+        </div>
       {% endfor %}
     {% endif %}
   </div>

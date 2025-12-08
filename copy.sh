@@ -1,1 +1,0 @@
-cp "$1" ~/projects/deneme/assets/img/

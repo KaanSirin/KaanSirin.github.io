@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
 ---
 
 I am a senior Computer Science student at Sabancı University double majoring in Industrial Engineering. During my undergraduate studies, I've been working in [VRL Lab](http://varollab.com) as a research assistant. I have been a part of the [GlobalDiplomacyNet](https://www.globaldiplomacy.net) project for the past two years, where we analyze diplomatic interactions with tools from network science, machine learning and natural language processing. In my graduation thesis, I worked on this project.

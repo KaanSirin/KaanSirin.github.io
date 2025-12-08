@@ -8,7 +8,4 @@ menu:
 social:
 - {icon: 'github', link: 'https://github.com/KaanSirin', type: 'b'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/kaan-şirin-5732462ba/', type: 'b'}
-- {icon: 'envelope', link: 'mailto:{{author.email}}', type: 'r'}
-
-cv:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {icon: 'envelope', link: 'mailto:kaan.sirin@sabanciuniv.edu', type: 'r'}
